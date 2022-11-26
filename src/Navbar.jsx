@@ -7,7 +7,7 @@ export default function Navbar(){
                 <ul>
                     <li><a className='nav-items' href='#proj'>Projects</a></li>
                     <li><a className='nav-items' href="#Contact">Contact Me</a></li>
-                    <a href={require("./Nguyen_Brandon_Resume.pdf")} target="_blank" className = "resume">Download Resume</a>
+                    <a href={require("./Nguyen_Brandon_Official_Resume.pdf")} target="_blank" className = "resume">Download Resume</a>
                 </ul>
             </nav>
     )
