@@ -366,6 +366,13 @@ ul li a {
     .projects-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
+    #contact {
+      display: flex;
+      align-items: center;
+      position: relative;
+      margin-left: 2rem;
+    }
 }
 
 .new-projects {
@@ -415,10 +422,10 @@ ul li a {
   position: relative;
   border-radius: 0.75rem;
   border: 3px solid var(--secondary);
-  left: 0.01%;
+  left: 0.0%;
   bottom: 101%;
   height: 100%;
-  width: 99.5%;
+  width: 100%;
   opacity: 0.6;
   z-index: 1;
   transition: .5s ease;
