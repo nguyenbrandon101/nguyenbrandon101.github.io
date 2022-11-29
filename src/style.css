@@ -373,6 +373,10 @@ ul li a {
       position: relative;
       margin-left: 2rem;
     }
+
+    .overlay hidden{
+      opacity: 0;
+    }
 }
 
 .new-projects {
