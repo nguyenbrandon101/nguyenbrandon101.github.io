@@ -120,6 +120,15 @@ ul li  {
     align-self: center;
   }
 
+  .about-section img {
+    max-width: 100%;
+    margin-left: 10rem;
+  }
+
+  .about-me {
+    max-width: 100%;
+    margin-left: 20rem;
+  }
 
 }
 
@@ -133,6 +142,15 @@ ul li  {
     align-self: center;
   }
 
+  .about-section img {
+    max-width: 100%;
+    margin-left: 10rem;
+  }
+
+  .about-me {
+    max-width: 100%;
+    margin-left: 20rem;
+  }
 
 }
 
@@ -195,6 +213,7 @@ ul li a {
   text-decoration: none;
 }
 
+
 #Contact {
   width: 100vw;
   height: 100vh;
@@ -251,6 +270,10 @@ ul li a {
 .contact-sec a span:hover {
   color: white;
 }
+
+
+
+
 
 /* Social Side Bars */
 
@@ -342,7 +365,7 @@ ul li a {
   url('https://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo') format('svg');
   }
 
-/*Projects to display*/
+
   .newProj {
     width: 100%;
   }
@@ -367,14 +390,7 @@ ul li a {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    #contact {
-      display: flex;
-      align-items: center;
-      position: relative;
-      margin-left: 2rem;
-    }
-
-    .overlay hidden{
+    .overlay {
       opacity: 0;
     }
 }
@@ -426,10 +442,10 @@ ul li a {
   position: relative;
   border-radius: 0.75rem;
   border: 3px solid var(--secondary);
-  left: 0.0%;
+  left: 0.01%;
   bottom: 101%;
   height: 100%;
-  width: 100%;
+  width: 99.5%;
   opacity: 0.6;
   z-index: 1;
   transition: .5s ease;
@@ -466,11 +482,10 @@ ul li a {
 .title-proj {
   font-size: 30px;
   font-family:monospace;
+  margin-left: 1rem;
   padding-top: 8rem;
 }
 
 .built {
   padding-bottom: 2rem;
-  color: var(--secondary);
-  font-size: 60px;
 }
