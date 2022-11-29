@@ -1,9 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Home from "./Home";
-import Projects from "./Projects";
 import Contact from "./Contact";
-
+import NewProj from "./NewProj";
 
 import { Route, Routes } from 'react-router-dom';
 export default function App() {
@@ -11,7 +10,7 @@ export default function App() {
     <div>
       <Navbar></Navbar>
       <Home></Home>
-      <Projects></Projects>
+      <NewProj></NewProj>
       <Contact></Contact>
     </div>
   )

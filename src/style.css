@@ -7,9 +7,7 @@
 /* Navbar */
 body {
   font-family: 'Playfair Display', serif;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
+
 }
 nav {
   min-width: 670px;
@@ -215,159 +213,6 @@ ul li a {
   text-decoration: none;
 }
 
-
-/*Projects to display*/
-
-
-.proj-background {
-  background-color: white;
-  width: 100%;
-  height: 100vh;
-}
-.proj {
-  display: flex;
-  max-width: 100vw;
-  max-height: 100vh;
-  flex-direction: row;
-  color: var(--secondary);
-  align-items: center;
-  align-content: center;
-  justify-content:space-evenly;
-  position: relative;
-}
-.proj-display {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: space-evenly;
-  margin-top: 5rem;
-}
-
-
-
-@media screen and (max-width: 1234px) {
-  .proj-display {
-    flex-wrap: wrap;
-    margin-top: 30rem;
-  }
-}
-
-
-@media screen and (max-width: 415px) {
-  .proj {
-    display: flex;
-    max-width: 100vw;
-    max-height: 100vh;
-    flex-direction: row;
-    color: var(--secondary);
-    align-items: center;
-    align-content: center;
-  }
-  .proj-display {
-    flex-wrap: wrap;
-    margin-top: 20rem;
-  }
-}
-
-
-
-@media screen and (max-width: 908px) {
-  .projects {
-    position: relative;
-    top: 40rem;
-  }
-}
-.container {
-  box-sizing: border-box;
-}
-.projects:hover {
-  opacity: 0.9;
-  transform: rotate(0deg) scale(1.1);
-  transform-origin: bottom center;
-  transition: 0.5s;
-}
-.projects {
-  border: 2px solid var(--secondary);
-  border-radius: 10px;
-  max-width: 400px;
-  background-color: var(--secondary);
-  opacity: 0.4;
-  color: white;
-}
-
-.proj-descrp {
-  position: relative;
-  text-align: initial;
-  width: 90%;
-  margin-left: 1rem;
-}
-
-.projects img {
-  width: 90%;
-  height: 250px;
-  border-radius: 10px;
-  
-}
-
-.projects h2 {
-  color: white;
-}
-
-#proj h1 {
-  font-size: 50px;color: var(--secondary);
-  position: relative;
-  top: 2rem;
-  left: 1rem;
-}
-
-.proj-display > div {
-  flex: 1 1 auto;
-  text-align: center;
-  margin: 25px;  /* and that, will result in a 10px gap */
-}
-
-.projects .git {
-  width: 40px;
-  height: 40px;
-}
-
-.proj-descrp h3 {
-  color: white;
-  font-size: 15px;
-}
-
-.proj-descrp h4 {
-  font-size: 12px;
-  color: rgb(228, 219, 219);
-}
-
-.proj-descrp img {
-  float: right;
-  position: relative;
-  bottom: 0.5rem;
-}
-
-.proj-descrp a {
-  color: red;
-  text-decoration: none;
-}
-.proj-descrp a:hover {
-  color: black;
-}
-
-
-@media screen and (max-width: 1235px) {
-  .contact-sec{
-    margin-top: 20rem;
-  }
-
-}
-@media screen and (max-width: 908px) {
-  .contact-sec {
-    margin-top: 100rem;
-  }
-}
-
 #Contact {
   width: 100vw;
   height: 100vh;
@@ -424,78 +269,6 @@ ul li a {
 .contact-sec a span:hover {
   color: white;
 }
-@media screen and (max-width: 1235px) {
-  #Contact {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    align-content: center;
-
-    margin-top: 50rem;
-  }
-  .contact-sec {
-    margin-bottom: 20rem;
-  }
-}
-
-@media screen and (max-width: 909px) {
-  #Contact {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    margin-top: 100rem;
-  }
-  .contact-sec {
-    margin-bottom:100rem;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #Contact {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    margin-top: 50rem;
-  }
-  .contact-sec {
-    margin-bottom:100rem;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  #Contact {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    margin-top: 110rem;
-  }
-  .contact-sec {
-    margin-bottom:20rem;
-  }
-}
-
-@media screen and (max-width: 830px) {
-  #Contact {
-    margin-top: 110rem;
-  }
-}
-
-@media screen and (max-width: 908px) {
-  #Contact {
-    margin-top: 130rem;
-  }
-}
-
-
-
-
 
 /* Social Side Bars */
 
@@ -586,4 +359,125 @@ ul li a {
   url('https://weloveiconfonts.com/api/fonts/entypo/entypo.ttf') format('truetype'),
   url('https://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo') format('svg');
   }
+
+/*Projects to display*/
+  .newProj {
+    width: 100%;
+  }
+
+  .proj-sec {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.0rem;
+    padding-right: 2.5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
   
+  .projects-grid {
+    display: grid;
+    gap: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.new-projects {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  display: inline-block;
+  padding-bottom: 2rem;
+}
+
+.new-projects img {
+  border-radius: 0.75rem;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 2px solid var(--secondary);
+  opacity: 0.9;
+}
+
+.new-projects:hover .overlay {
+  opacity: 0.0;
+}
+
+.new-projects:hover .desp-proj {
+  opacity: 1;
+  transform: rotate(0deg) scale(1.1);
+  transform-origin: bottom center;
+  transition: 0.5s;
+}
+
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255,1);
+}
+
+.overlay {
+  position: relative;
+  border-radius: 0.75rem;
+  border: 3px solid var(--secondary);
+  left: 0.01%;
+  bottom: 101%;
+  height: 100%;
+  width: 99.5%;
+  opacity: 0.6;
+  z-index: 1;
+  transition: .5s ease;
+  background-color: var(--secondary);
+}
+
+.desp-proj {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.75rem;
+  background-color: rgb(128, 128, 128,0.9);
+  bottom: 160%;
+  left: 25%;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+  transition: .5s ease;
+  color: white;
+}
+.desp-proj .git {
+  width: 40px;
+  height: 40px;
+  float: right;
+  bottom: 1rem;
+  border: none;
+}
+
+.desp-proj a {
+  text-decoration: none;
+  color: red;
+}
+
+.title-proj {
+  font-size: 30px;
+  font-family:monospace;
+  padding-top: 8rem;
+}
+
+.built {
+  padding-bottom: 2rem;
+  color: var(--secondary);
+  font-size: 60px;
+}
