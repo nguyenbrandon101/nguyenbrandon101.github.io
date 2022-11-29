@@ -214,6 +214,19 @@ ul li a {
 }
 
 
+
+@media screen and (max-width: 1235px) {
+  .contact-sec{
+    margin-top: 20rem;
+  }
+
+}
+@media screen and (max-width: 908px) {
+  .contact-sec {
+    margin-top: 100rem;
+  }
+}
+
 #Contact {
   width: 100vw;
   height: 100vh;
@@ -270,10 +283,6 @@ ul li a {
 .contact-sec a span:hover {
   color: white;
 }
-
-
-
-
 
 /* Social Side Bars */
 
@@ -366,6 +375,8 @@ ul li a {
   }
 
 
+  /*Projects to display*/
+
   .newProj {
     width: 100%;
   }
@@ -389,10 +400,19 @@ ul li a {
     .projects-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+}
 
-    .overlay {
-      opacity: 0;
-    }
+@media screen and (max-width: 414px) {
+
+  .new-projects {
+    max-width: 100%;
+    margin-left: 8rem;
+  }
+
+  .contact-sec {
+    margin-left: 4rem;
+  }
+
 }
 
 .new-projects {
@@ -487,5 +507,8 @@ ul li a {
 }
 
 .built {
-  padding-bottom: 2rem;
+  margin-left: 1rem;
+  color: var(--secondary);
+  font-size: 50px;
 }
+
