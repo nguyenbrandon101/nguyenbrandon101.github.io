@@ -401,7 +401,7 @@ ul li a {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
     .overlay {
-      bottom: 95%;
+      bottom: 90%;
     }
 }
 
